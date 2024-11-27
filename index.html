@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Productica</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="html, css, javascript, jquery">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+<!-- Inspect prevention -->
+    <script>
+      // Disable right-click
+      document.addEventListener('contextmenu', function(event) {
+        event.preventDefault();
+      });
+  
+      // Disable specific keyboard shortcuts
+      document.addEventListener('keydown', function(event) {
+        // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, and Cmd+Option+I for macOS
+        if (
+          event.key === 'F12' || // F12
+          (event.ctrlKey && event.shiftKey && event.key === 'I') || // Ctrl+Shift+I
+          (event.ctrlKey && event.shiftKey && event.key === 'J') || // Ctrl+Shift+J
+          (event.ctrlKey && event.key === 'U') || // Ctrl+U
+          (event.metaKey && event.altKey && event.key === 'I') // Cmd+Option+I for macOS
+        ) {
+          event.preventDefault();
+        }
+      });
+  
+      // Prevent dragging
+      document.addEventListener('dragstart', function(event) {
+        event.preventDefault();
+      });
+  
+      // Disable copying
+      document.addEventListener('copy', function(event) {
+        event.preventDefault();
+      });
+
+       
+        
+        //    // Function to redirect to a different page
+        //    function redirectToWarning() {
+        //     window.location.href = "https://upload.wikimedia.org/wikipedia/commons/e/eb/Givingthefinger.jpg"; // Replace "warning.html" with the desired page
+        // }
+
+        // // Detect key combinations for Ctrl+U, Ctrl+Shift+C, F12
+        // document.addEventListener("keydown", (event) => {
+        //     // Detect Ctrl+U
+        //     if (event.ctrlKey && event.key === "u") {
+        //         event.preventDefault();
+        //         redirectToWarning();
+        //     }
+
+        //     // Detect Ctrl+Shift+C
+        //     if (event.ctrlKey && event.shiftKey && event.key === "C") {
+        //         event.preventDefault();
+        //         redirectToWarning();
+        //     }
+
+        //     // Detect F12
+        //     if (event.key === "F12") {
+        //         event.preventDefault();
+        //         redirectToWarning();
+        //     }
+        // });
+
+        // Detect right-click
+        document.addEventListener("contextmenu", (event) => {
+            event.preventDefault();
+            redirectToWarning();
+        });
+    </script>
+    
+
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+
+
+    <div class="unslate_co--site-wrap">
+
+      <div class="unslate_co--site-inner">
+
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <!-- END lines -->
+      
+      <nav class="unslate_co--site-nav site-nav-target">
+
+        <div class="container">
+        
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li class="has-children">
+                  <a href="#home-section" class="nav-link">Home</a>
+                  <!-- <ul class="dropdown">
+                    <li>
+                      <a href="index.html">Hero Image BG</a>
+                    </li>
+                    <li>
+                      <a href="index-video.html">Video BG</a>
+                    </li>
+                    <li>
+                      <a href="index-hero-slider.html">Hero Slider</a>
+                    </li>
+                    <li>
+                      <a href="index-sidebar-menu.html">Sidebar Menu</a>
+                    </li>
+                    <li>
+                      <a href="index-right-menu.html">Right Menu</a>
+                    </li>
+                  </ul> -->
+                </li>
+                
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#features-section" class="nav-link">Features</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">Productica<span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link">Coming Soon</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+
+    <div id="home-section" style="position: relative; overflow: hidden;">
+        <!-- Content -->
+        <div class="cover-v1 jarallax" style="position: relative; z-index: 1; overflow: hidden;">
+          <!-- Video Background -->
+          <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+            <source src="images/homevid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-7 mx-auto text-center">
+                <h1 class="heading gsap-reveal-hero">Productica</h1>
+                <h2 class="subheading gsap-reveal-hero">Discover Your Product’s True Market Potential with Productica</h2>
+                <h5 class="gsap-reveal-hero">“AI-powered insights tailored to help you conquer the Indian market with confidence.”</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+   
+
+
+      
+
+     <div class="unslate_co--section" style="background-color: black;">
+
+          <div class="container">
+            <div class="owl-carousel logo-slider">
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/logo-productica.png" alt="Image" class="img-fluid">
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                &emsp;
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/RAIL+Final (1).png" alt="Image" class="img-fluid">
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                &emsp;
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/ms.jpg" alt="Image" class="img-fluid">
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                &emsp; 
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/logo-aws.png" alt="Image" class="img-fluid">
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                &emsp;
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+          
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">About Productica</span></h2>
+            <span class="gsap-reveal">
+            <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+          
+
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img">
+                <img src="images\poducticaabout.jpeg" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">Empowering Your Product Vision</span></h3>
+              <p class="lead gsap-reveal">Productica is your AI-powered partner in discovering a product’s potential in the Indian market, providing insights that guide every step of your business journey.</p>
+              <p class="mb-4 gsap-reveal">Our platform offers tailored market analysis, competitor insights, and trend monitoring to help you make data-driven decisions with confidence. Let Productica turn your vision into a market success story.</p>
+              <p class="gsap-reveal"><a href="#" class="btn btn-outline-pill btn-custom-light">Learn More About Productica</a></p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Indian Market section -->
+
+      <div class="unslate_co--section" id="indian-market-fit-section">
+        <div class="container">
+          
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Indian Market Fit Analysis</span></h2>
+            <span class="gsap-reveal">
+            <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+      
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">Unlock the Potential of Indian Markets</span></h3>
+              <p class="lead gsap-reveal">Productica offers targeted insights into the dynamics of the Indian market, helping you determine product viability, customer preferences, and growth opportunities.</p>
+              <p class="mb-4 gsap-reveal">With AI-driven analytics, we delve into localized trends, demographic demands, and competitive positioning, so you can launch products that resonate with the Indian audience and achieve meaningful market entry.</p>
+              <p class="gsap-reveal"><a href="#" class="btn btn-outline-pill btn-custom-light">Explore Indian Market Insights</a></p>
+            </div>
+      
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img">
+                <img src="images/indianmarketimg.jpeg" alt="Indian Market Analysis Image" class="img-fluid">
+              </figure>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+
+      <div class="unslate_co--section" id="features-section">
+        <div class="container">
+      
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Productica Features</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+      
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <i class="fas fa-chart-line fa-6x"></i>
+                </div>
+                <h3>Comprehensive <br> Market Analysis</h3>
+                <p>Gain a deep understanding of market dynamics, demand trends, and growth opportunities with Productica’s AI-driven analysis.</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <i class="fas fa-users fa-6x"></i>
+                </div>
+                <h3>Competitor <br> Insights</h3>
+                <p>Identify and analyze competitor strategies to gain a competitive edge in your product positioning and marketing efforts.</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <i class="fas fa-chart-area fa-6x"></i>
+                </div>
+                <h3>Real-Time <br> Trend Monitoring</h3>
+                <p>Stay ahead of emerging trends and changes in consumer behavior with real-time updates on market movements.</p>
+              </div> 
+            </div>
+      
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <i class="fas fa-check-circle fa-6x"></i>
+                </div>
+                <h3>Market Fit <br> Assessment</h3>
+                <p>Evaluate how well your product aligns with the Indian market, based on consumer needs, demographics, and regional preferences.</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <i class="fas fa-cogs fa-6x"></i>
+                </div>
+                <h3>Customizable <br> Insights</h3>
+                <p>Receive tailored insights that match your specific product needs, target audience, and industry segment.</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <i class="fas fa-chart-pie fa-6x"></i>
+                </div>
+                <h3>Data Visualization <br> & Reporting</h3>
+                <p>Easily interpret complex data through intuitive visuals and customized reports that inform strategic decision-making.</p>
+              </div> 
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="unslate_co--section section-counter" id="productica-features">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Productica Highlights</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+      
+          <div class="row pt-5">
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="94">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Market Analysis Accuracy</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="1.4">0</span>
+                  <span class="append-text">s</span>
+                </span>
+                <span class="counter-label">Average Response Time</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="90">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">User Satisfaction Rate</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="98">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Efficiency in Data Processing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class=" text-center divider"><span class="gsap-reveal">*Disclaimer: Results may vary based on internet connectivity and data availability.</span></h4>
+      <!-- END Highlights -->
+
+      <div class="unslate_co--section" id="pricing-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Our Pricing Plans</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+      
+          <div class="pricing-cards">
+            <div class="pricing-card">
+              <div class="card-inner">
+                <h3 class="plan-title">Basic Plan</h3>
+                <p class="price">$19<span>/month</span></p><br>
+                <ul class="features-list">
+                 <h4><li><i class="fas fa-project-diagram"></i> 50 Credits</li>
+                  <li><i class="fas fa-headset"></i> Basic Support</li>
+                  <li><i class="fas fa-check-circle"></i> Access to all features</li>  </h4> 
+                </ul>
+              </div>
+            </div>
+      
+            <div class="pricing-card popular">
+              <div class="card-inner">
+                <h3 class="plan-title">Pro Plan</h3>
+                <p class="price">$49<span>/month</span></p><br>
+                <ul class="features-list">
+                <h4>  <li><i class="fas fa-project-diagram"></i> 100 Credits</li>
+                  <li><i class="fas fa-headset"></i> Priority Support</li>
+                  <li><i class="fas fa-crown"></i> Access to premium features</li>  </h4>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="pricing-card">
+              <div class="card-inner">
+                <h3 class="plan-title">Enterprise Plan</h3>
+                <p class="price">$TBD<span>/month</span></p><br>
+                <ul class="features-list">
+                <h4> <li><i class="fas fa-project-diagram"></i> TBD Credits</li>
+                  <li><i class="fas fa-headset"></i> Dedicated Support</li>
+                  <li><i class="fas fa-star"></i> All features included</li> </h4>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+ <!-- Embed of productica from pickaxe -->
+  <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Try Productica Now</span></h2>
+  <!-- Bot -->
+  <div class="iframe-container">
+    
+    
+
+    <script>window.PICKAXE=window.PICKAXE||{pickaxes:[],style:"kHsjoCQGgI0GWASmgIdIAxiDA6wgM6CMbgC4UgDDAXYEAvDIBoGEBgG4CAWQIGYBgwCqApdoEjggjIaCcCoCA9gVAaAnBYBkqgBkKBwWoARYgJhrAFwqAFQEAHkIAXAQAASgbCfAhqSAAAsDIAYEc+QJckgGXFAhUGBQ30DEcIGo0wBBdgS5VAcAaATm8A1GoCpYQJQmgEVYAYgDBAQRKAhe0ASXIAURAOyAimqAFxCAsEGAQjSADFiACCIASoAACIBA+oAAeoBI8IAhHIAkEYAqCYAuaYAUIYAJGYA7NoAlP4BNRoAWCYB8QoB0EIAtKYBqg4A5NYBBPYBPeYBJO4CDfoBhh4AjiwBqgG8ygHWTgFFvgE9LgFRVgIWhgGNfgI9ngHOzgL2XgC4JgEwqgJQYgAxIgFAUgM+3AOKAMoqAWOKAIi4AtgB0gIiBgMYRgD+AgAUIgOQWgIBRgBXigBULgEAOgEgAwBQUoAGIYAJIAXRcAAMSAIUBAOGhgELmQAAEIBBegAmIBqJMAhMuAC4NABKGgEAJQBRKIBioUAGouAPHnACkEgFJZQAAMYBem0AqGiAMUhAGHjgBbiQBpNYBuMkAM5iARBJACaRgACIwBZoIBgrMABsCAIotABJngFUgQDnFIBTY8AeOyAfRFAGvZgANBQAaGoAQKEAMCyAD1fAAAogDijQCe5YBEFMAAYIAEMAoB+AAIlAEnAgBACQDRJ4BdLsAGWmABt5AIChgAYDQB9CYAFgMAgz6AZrFAH6mgHcFQDoaoAAk0AzcCAZu3AM+bgBhMQAiwIBUF8Ad56AS6XABz+gAVNQBtvYBzuUALBKADLZABqFgAlDwDHXIBLrsACsGAK8nABAxgAMVwCPBUPACMagECfQBRMIAVesA3yiATBpAADAgDQIwChUIBC70AJw+APi9APIugGTCwAsN4AfMcAWgeAL1pAItagBK9QAxCIBgAMAixqANZrAPRFgAo9wARJABLwDRaoBHVcAQapAGvUIRABgQwBSvEAfonABBBQBfgcAckHADBFwAvVUABOVAA1xQA4LcAIyjABYBQAQ3UAACKgA="},window.PICKAXE.pickaxes.push({id:"Productica_FHPX5",type:"popup"});const{id:_fid}=window.PICKAXE.pickaxes[0];fetch(`https://embed.pickaxeproject.com/axe/api/script/${_fid}`).then((e=>e.json())).then((({v:e})=>{const t=`https://cdn.jsdelivr.net/gh/pickaxeproject/cdn@${e}/dist`;if(!document.querySelector(`script[src="${t}/bundle.js"]`)){const e=document.createElement("script");e.src=t+"/bundle.js",e.defer=!0,document.head.appendChild(e)}}));</script>
+<div id="pickaxe-popup-Productica_FHPX5"></div>
+</div>
+<div id="pickaxe-input-box-Productica_FHPX5"></div>
+
+
+    
+  
+  
+      <!-- Centered Button Container -->
+  <!-- <div class="button-container" style="background-color: black;">
+  
+    <button class="custom-button" onclick="openModal()">Try Productica</button>
+  </div> -->
+  
+  <!-- Modal HTML -->
+  <div id="passwordModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h3>Enter Password</h3>
+      <input type="password" id="passwordInput" placeholder="Password">
+      <button onclick="checkPassword()">Submit</button>
+    </div>
+  </div>
+  
+  <script>
+    // Open the modal
+    function openModal() {
+      document.getElementById("passwordModal").style.display = "flex";
+    }
+  
+    // Close the modal
+    function closeModal() {
+      document.getElementById("passwordModal").style.display = "none";
+    }
+  
+    // Check the password
+    function checkPassword() {
+      const password = document.getElementById("passwordInput").value;
+      if (password === "rajubkl") { 
+      window.location.href = "https://i.imgur.com/Q03usBO.jpeg";
+  } 
+  else if (password === "productica4827") {
+      window.location.href = "https://www.blackbox.ai/agent/Productica2.0s3Wp0Rg";
+  } 
+  else if (password === "productica1080") {
+      window.location.href = "productica.html";
+  } 
+else if (password === "rajumkc") {
+      window.location.href = "https://i.imgur.com/Vcpjhvf.jpeg";
+  } 
+  else {
+      alert("Incorrect password.");
+  }
+  
+    }
+  
+  
+    // Close modal when clicking outside of it
+    window.onclick = function(event) {
+      const modal = document.getElementById("passwordModal");
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+  
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Get In Touch</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row justify-content-between">
+            
+            <div class="col-md-6">
+              <form name="submit-to-google-sheet" method="post"  class="form-outline-style-v1" id="contactForm">
+                <div class="form-group row mb-0">
+                    <div class="col-lg-6 form-group gsap-reveal">
+                        <label for="name">Name</label>
+                        <input name="name" type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-lg-6 form-group gsap-reveal">
+                        <label for="email">Email</label>
+                        <input name="email" type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="col-lg-12 form-group gsap-reveal">
+                        <label for="message">Write your message...</label>
+                        <textarea name="message" id="message" cols="30" rows="7" class="form-control" required></textarea>
+                    </div>
+                </div>
+                <div class="form-group row gsap-reveal">
+                    <div class="col-md-12 d-flex align-items-center">
+                        <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Send Message">
+                        <span class="submitting"></span>
+                    </div>
+                </div>
+            </form>
+
+            <h5 id="success-message" style="color: green;"></h5>
+            <h5 id="error-message" style="color: red;"></h5>
+
+            <script>
+              const scriptURL = 'https://script.google.com/macros/s/AKfycbxENiXt1bELdxzDyR4fzYyZZw_3PTcCVHKbt_26qEXJEftKzgVW-eaE5aebDsdiExiJkw/exec';
+              const form = document.forms['submit-to-google-sheet'];
+              const successMessage = document.getElementById('success-message');
+              const errorMessage = document.getElementById('error-message');
+              
+              form.addEventListener('submit', e => {
+                  e.preventDefault();
+                  
+                  // Clear previous messages
+                  successMessage.textContent = '';
+                  errorMessage.textContent = '';
+                  
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                      .then(response => {
+                          if (response.ok) {
+                              successMessage.textContent = 'Form submitted successfully!';
+                              form.reset(); // Optional: Reset the form fields after success
+                          } else {
+                              throw new Error('Failed to submit form');
+                          }
+                      })
+                      .catch(error => {
+                          errorMessage.textContent = 'Error submitting form: ' + error.message;
+                      });
+              });
+          </script>
+          
+            
+              <!-- <div id="form-message-warning" class="mt-4"></div>  -->
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-info-v1">
+                <!-- Email -->
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <a href="mailto:info@productica.in" class="contact-info-val">info@productica.in</a>
+                </div>
+                
+                <!-- Phone -->
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Phone</span>
+                  <a href="tel:+91 70691 33331" class="contact-info-val">+91 70691 33331</a>
+                </div>
+                
+                <!-- Address -->
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Address</span>
+                  <address class="contact-info-val"> <br> Vadodara, Gujarat, India</address>
+                </div>
+              </div>
+              
+              <!-- Social Media Icons -->
+              <div class="social-media-icons gsap-reveal d-block mt-3">
+                <span class="d-block contact-info-label">Follow Us</span>
+                <ul class="footer-site-social d-flex mt-2" style="list-style: none; padding: 0;">
+                  <li style="margin-right: 15px;">
+                    <a href="https://x.com/Productica_in" target="_blank" style="font-size: 24px; color: white;">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li style="margin-right: 15px;">
+                    <a href="https://www.instagram.com/productica.in" target="_blank" style="font-size: 24px; color: white">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" style="font-size: 24px; color: white;">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+      </div> <!-- END .unslate_co-site-inner -->
+
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              
+              <div class="footer-site-logo"><a href="#">Productica<span>.</span></a></div>
+
+              <!-- <ul class="footer-site-social">
+                <li><a href="https://x.com/Productica_in" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/productica.in"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul> -->
+            
+
+              <p class="site-copyright">
+                
+
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> Made with <i class="icon-heart"
+                  aria-hidden="true"></i> by <a href="https://coddle.tech" target="_blank">Kalp</a>
+
+              
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+ </div>
+      <!-- END .cover-v1 -->
+      
+    </div>
+
+    
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
