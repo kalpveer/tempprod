@@ -2320,7 +2320,7 @@ span.error {
 
 
 
-#home-section {
+/* #home-section {
   background: linear-gradient(-45deg, #ee7752 0%, #e73c7e 20%, #23a6d5 40%, #23d5ab 60%, #ffcc70 70%, #d4a5a5 85%, #6e45e2 100%);
   background-size: 400% 400%;
   animation: gradientShift 20s ease-in-out infinite;
@@ -2339,7 +2339,7 @@ span.error {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 
 
