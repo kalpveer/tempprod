@@ -16,13 +16,23 @@
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="images/whitep.png" type="image/x-icon">
 
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
 
   </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TS5CTZ6BLQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TS5CTZ6BLQ');
+</script>
+
   <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
 <!-- Inspect prevention -->
     <script>
@@ -213,7 +223,7 @@
                 &emsp;
               </div>
               <div class="logo-v1 gsap-reveal">
-                <img src="images/rail.png" alt="Image" class="img-fluid">
+                <img src="images/RAIL+Final (1).png" alt="Image" class="img-fluid">
               </div>
               <div class="logo-v1 gsap-reveal">
                 &emsp;
@@ -419,50 +429,66 @@
         <div class="container">
           <div class="section-heading-wrap text-center mb-5">
             <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Our Pricing Plans</span></h2>
-            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+            <span class="gsap-reveal">
+              <img src="images/divider.png" alt="divider" width="76">
+            </span>
           </div>
       
           <div class="pricing-cards">
+            <!-- Basic Plan -->
             <div class="pricing-card">
               <div class="card-inner">
                 <h3 class="plan-title">Basic Plan</h3>
-                <p class="price">NA<span>/month</span></p><br>
+                <p class="price">Free<span></span></p>
                 <ul class="features-list">
-                 <h4><li><i class="fas fa-project-diagram"></i>5 Free Credits + Pay-As-You-Use</li>
+                  <li><i class="fas fa-project-diagram"></i> 5 Free Credits + Pay-As-You-Use</li>
                   <li><i class="fas fa-headset"></i> Basic Support</li>
                   <li><i class="fas fa-check-circle"></i> Access to limited features</li>
-                  <li><i class="fas fa-ban"></i> No downloadable report</li>  </h4> 
+                  <li><i class="fas fa-heart"></i> Our Love</li>
                 </ul>
+                <button class="btn-select" onclick="location.href='#contact-section';">Contact Us</button><br><br>
+                <div class="badge">*Conditions Apply</div>
               </div>
             </div>
       
+            <!-- Pro Plan -->
             <div class="pricing-card popular">
+              <!-- <div class="badge">Most Popular</div> -->
               <div class="card-inner">
                 <h3 class="plan-title">Pro Plan</h3>
-                <p class="price">$49<span>/month</span></p><br>
+                <p class="price">$49<span>/month</span></p>
                 <ul class="features-list">
-                <h4>  <li><i class="fas fa-project-diagram"></i>50 credits + Pay-As-You-Use</li>
+                  <li><i class="fas fa-project-diagram"></i> 50 credits</li>
                   <li><i class="fas fa-headset"></i> Priority Support</li>
                   <li><i class="fas fa-crown"></i> Access to premium features</li>
-                  <li><i class="fas fa-file-download"></i> Downloadable report</li>  </h4>
+                  <li><i class="fas fa-file-download"></i> Downloadable report</li>
+                  <li><i class="fas fa-heart"></i> Our Love</li>
                 </ul>
+                <button class="btn-select" onclick="location.href='#contact-section';">Contact Us</button><br><br>
+                <div class="badge">*Conditions Apply</div>
               </div>
             </div>
       
+            <!-- Enterprise Plan -->
             <div class="pricing-card">
               <div class="card-inner">
                 <h3 class="plan-title">Enterprise Plan</h3>
-                <p class="price">$TBD<span>/month</span></p><br>
+                <p class="price">$TBD<span>/month</span></p>
                 <ul class="features-list">
-                <h4> <li><i class="fas fa-project-diagram"></i> TBD Credits</li>
-                  <li><i class="fas fa-headset"></i> Dedicated Support</li>
-                  <li><i class="fas fa-star"></i> All features included</li> </h4>
+                  <li><i class="fas fa-project-diagram"></i> Customizable credits as per usage</li>
+                  <li><i class="fas fa-headset"></i> 24/7 Dedicated Support</li>
+                  <li><i class="fas fa-star"></i> All features included</li>
+                  <li><i class="fas fa-shield-alt"></i> Enhanced data security options</li>
+                  <li><i class="fas fa-heart"></i> Our Love</li>
                 </ul>
+                <button class="btn-select" onclick="location.href='#contact-section';">Contact Us</button><br><br>
+                <div class="badge">*Subject to Agreement</div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
       
  <!-- Embed of productica from pickaxe -->
   <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Try Productica Now</span></h2>
